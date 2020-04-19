@@ -1,3 +1,22 @@
+@media (max-width: 425.98px) {
+
+    #product #product-des .product-detail .nice-number button,
+    #product #product-des .product-detail input {
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 484.98px) {
+
+    #product-des .product-table .table td,
+    #product-des .product-table .table td {
+        padding: .2rem !important;
+        border-bottom: none;
+    }
+}
+
+
 /*Responsive Breakpoints*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
@@ -15,64 +34,57 @@
         margin-left: 15px !important;
     }
 
-    .input-group {
+    header .input-group {
         width: 100% !important;
     }
 
-    .circle-aria {
-        height: 160px;
-        width: 160px;
+    header {
+        text-align: center;
+
     }
 
-    .circle-aria i {
-        margin-left: 42px;
-        margin-top: 56px;
+    header .navbar-brand {
+        padding: 0;
+        margin-left: 0;
     }
 
+    header .navbar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
 
+    header .navbar {
+        margin: 0;
+        margin-top: .5rem;
+    }
 
 
 }
 
+@media (max-width: 768.98px) {
 
-
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .circle-aria {
-        height: 160px;
-        width: 160px;
+    #categoryAria .left-nav {
+        text-align: center !important;
+        margin-left: 30%;
     }
 
-    .circle-aria i {
-        margin-left: 42px;
-        margin-top: 56px;
+    #categoryAria .demo {
+        margin-left: 0;
     }
-
-
-
-
+    #anotherFooter .col-md-4:first-child p {
+        width: auto;
+        text-align: center;
+        
+    }
+    .copyright, .copyright .text-right {
+        text-align: center!important;
+    }
+    
 }
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .circle-aria {
-        height: 160px;
-        width: 160px;
-    }
-
-    .circle-aria i {
-        margin-left: 42px;
-        margin-top: 56px;
-    }
-
-
-
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
 
 @media (max-width: 991px) {
 
@@ -83,7 +95,3 @@
     }
 
 }
-
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}

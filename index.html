@@ -3,78 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <title>Timbaas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/responsive.css">
+
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="img/tab_logo.png">
 </head>
+
 <body>
 
-<!--===============================
+    <!--===============================
         header area goes here
 ================================-->
-<header class="pb-2 fixed">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
-                <a class="navbar-brand mt-2" href="#"><img src="img/Timbaas_2.png" alt="timbaas_logo" height="75" width="80"></a>
-            </div>
-            <div class="col-sm-4">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <select class="custom-select">
-                            <option selected></option>
-                            <option value="1">Arts and Crafts</option>
-                            <option value="2">Beauty and Personal Care</option>
-                            <option value="3">Books</option>
-                            <option value="3">Computer</option>
-                            <option value="3">Digital Music</option>
-                            <option value="3">Electronics</option>
-                            <option value="3">Kindle Store</option>
-                            <option value="3">Prime Video</option>
-                            <option value="3">Women's Fashion</option>
-                            <option value="3">Girl's Fashion</option>
-                            <option value="3">Boy's Fashion</option>
-                            <option value="3">Deals</option>
-                            <option value="3">Health & Househod</option>
-                            <option value="3">Home & Kitchen</option>
-                            <option value="3">Industrial & Scientific</option>
-                            <option value="3">Luggage</option>
-                        </select>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fas fa-search"></i></button>
+    <header class="pb-2 fixed">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="navbar-brand mt-2" href="#"><img src="img/Timbaas_2.png" alt="timbaas_logo" height="75" width="80"></a>
+                </div>
+                <div class="col-sm-4">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <select class="custom-select">
+                                <option selected></option>
+                                <option value="1">Arts and Crafts</option>
+                                <option value="2">Beauty and Personal Care</option>
+                                <option value="3">Books</option>
+                                <option value="3">Computer</option>
+                                <option value="3">Digital Music</option>
+                                <option value="3">Electronics</option>
+                                <option value="3">Kindle Store</option>
+                                <option value="3">Prime Video</option>
+                                <option value="3">Women's Fashion</option>
+                                <option value="3">Girl's Fashion</option>
+                                <option value="3">Boy's Fashion</option>
+                                <option value="3">Deals</option>
+                                <option value="3">Health & Househod</option>
+                                <option value="3">Home & Kitchen</option>
+                                <option value="3">Industrial & Scientific</option>
+                                <option value="3">Luggage</option>
+                            </select>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Search">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fas fa-search"></i></button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <nav class="navbar navbar-expand-lg navbar-light mt-4">
-                    <div class="navbar-nav d-flex justify-content-center">
-                        <a class="nav-item nav-link mr-4 font-weight-bold" href="#">
-                            <i class="far fa-user"></i>
-                            Sign In
-                        </a>
-                        <a class="nav-item nav-link mr-4 font-weight-bold" href="#">
-                            <i class="far fa-envelope"></i>
-                            Message
-                        </a>
-                        <a class="nav-item nav-link font-weight-bold" href="#">
-                            <i class="fas fa-cart-plus"></i>
-                            Cart
-                        </a>
-                    </div>
-                </nav>
+                <div class="col-sm-4">
+                    <nav class="navbar navbar-expand-lg navbar-light mt-4">
+                        <div class="navbar-nav d-flex justify-content-center">
+                            <a class="nav-item nav-link mr-4 font-weight-bold" href="#">
+                                <i class="far fa-user"></i>
+                                Sign In
+                            </a>
+                            <a class="nav-item nav-link mr-4 font-weight-bold" href="#">
+                                <i class="far fa-envelope"></i>
+                                Message
+                            </a>
+                            <a class="nav-item nav-link font-weight-bold" href="#">
+                                <i class="fas fa-cart-plus"></i>
+                                Cart
+                            </a>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
-    </div>
-</header>
-<hr>
+    </header>
+    <hr>
 
-<!-- category area goes here -->
-<section id="categoryAria">
+    <!-- category area goes here -->
+    <section id="categoryAria">
         <div class="container-fluid">
             <div class="row pt-2 pb-2 main-row">
                 <div class="col-4">
@@ -85,7 +90,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -97,7 +104,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -111,7 +120,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -123,7 +134,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -143,7 +156,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Fashion Accessories</h6></li>
+                                            <li>
+                                                <h6>Fashion Accessories</h6>
+                                            </li>
                                             <li><a href="">Belt Accessories</a></li>
                                             <li><a href="">Belts</a></li>
                                             <li><a href="">Ear Muffs</a></li>
@@ -155,7 +170,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -169,7 +186,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -188,7 +207,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -200,7 +221,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -214,7 +237,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -226,7 +251,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -246,7 +273,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Fashion Accessories</h6></li>
+                                            <li>
+                                                <h6>Fashion Accessories</h6>
+                                            </li>
                                             <li><a href="">Belt Accessories</a></li>
                                             <li><a href="">Belts</a></li>
                                             <li><a href="">Ear Muffs</a></li>
@@ -258,7 +287,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -272,7 +303,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -291,7 +324,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -303,7 +338,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -317,7 +354,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -329,7 +368,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -349,7 +390,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Fashion Accessories</h6></li>
+                                            <li>
+                                                <h6>Fashion Accessories</h6>
+                                            </li>
                                             <li><a href="">Belt Accessories</a></li>
                                             <li><a href="">Belts</a></li>
                                             <li><a href="">Ear Muffs</a></li>
@@ -361,7 +404,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -375,7 +420,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -394,7 +441,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -406,7 +455,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -420,7 +471,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -432,7 +485,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -452,7 +507,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Fashion Accessories</h6></li>
+                                            <li>
+                                                <h6>Fashion Accessories</h6>
+                                            </li>
                                             <li><a href="">Belt Accessories</a></li>
                                             <li><a href="">Belts</a></li>
                                             <li><a href="">Ear Muffs</a></li>
@@ -464,7 +521,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -478,7 +537,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -497,7 +558,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -509,7 +572,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -523,7 +588,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -535,7 +602,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -555,7 +624,9 @@
                                 <div class="row mt-2">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Fashion Accessories</h6></li>
+                                            <li>
+                                                <h6>Fashion Accessories</h6>
+                                            </li>
                                             <li><a href="">Belt Accessories</a></li>
                                             <li><a href="">Belts</a></li>
                                             <li><a href="">Ear Muffs</a></li>
@@ -567,7 +638,9 @@
                                     </div>
                                     <div class="col-md-6 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -581,7 +654,9 @@
                                 <div class="row">
                                     <div class="col-md-6 mb-2 text-center">
                                         <ul>
-                                            <li><h6>Lights & Lighting</h6></li>
+                                            <li>
+                                                <h6>Lights & Lighting</h6>
+                                            </li>
                                             <li><a href="">Commercial & Industrial Lighting</a></li>
                                             <li><a href="">Holiday Lighting</a></li>
                                             <li><a href="">Indoor Lighting</a></li>
@@ -597,7 +672,7 @@
                     </ul>
                 </div>
                 <div class="col-4">
-                  
+
                 </div>
                 <div class="col-4">
                     <div class="nav">
@@ -611,10 +686,10 @@
                 </div>
             </div>
         </div>
-</section>
+    </section>
 
-<!--main banner area goes here-->
-<section id="mainBanner" class="bg-light">
+    <!--main banner area goes here-->
+    <section id="mainBanner" class="bg-light">
         <div class="container-fluid">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -640,12 +715,12 @@
                 </a>
             </div>
         </div>
-</section>
-<!--service aria goes here-->
-<section id="services" class="pt-5 pb-5">
-   <div class="container pt-3 pb-5">
-        <h3 class="text-center font-weight-bold mb-5 animated zoomIn">Service of Timbaas</h3>
-        <div class="row">
+    </section>
+    <!--service aria goes here-->
+    <section id="services" class="pt-5 pb-5">
+        <div class="container pt-3 pb-5">
+            <h3 class="text-center font-weight-bold mb-5 animated zoomIn">Service of Timbaas</h3>
+            <div class="row">
                 <div class="col-sm-3">
                     <div class="row">
                         <div class="d-none d-lg-block col-lg-3">
@@ -698,505 +773,506 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!--best product aria goes here-->
-<section id="bestProduct" class="pt-3 pb-3">
-    <div class="container">
-        <h3 class="text-center font-weight-bold mb-1 animated zoomIn">Best Product</h3>
-        <h4 class="text-center font-weight-bold mb-5"><a href="#">See all</a></h4>
-        <div id="carouselSixColumn" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselSixColumn" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselSixColumn" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(1).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Wear Drop</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+    <!--best product aria goes here-->
+    <section id="bestProduct" class="pt-3 pb-3">
+        <div class="container">
+            <h3 class="text-center font-weight-bold mb-1 animated zoomIn">Best Product</h3>
+            <h4 class="text-center font-weight-bold mb-5"><a href="productDetails.html">See all</a></h4>
+            <div id="carouselSixColumn" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSixColumn" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSixColumn" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(1).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <a href="productDetails.html">Product Details</a>
+                                        <h5 class="card-title">Wear Drop</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(2).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nice Shows</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(3).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cloths</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(4).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pant</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(5).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cloths</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(6).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Simple shoe</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(2).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nice Shows</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(7).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Texas Instrument</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(3).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cloths</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(8).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hand Ring</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(4).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pant</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(9).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Child Toys</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(5).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cloths</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(10).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">T-Shirt</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(6).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Simple shoe</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(11).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">colour Pen</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(12).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pant</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(7).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Texas Instrument</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                <a class="carousel-control-prev" href="#carouselSixColumn" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSixColumn" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--top category aria goes here-->
+    <section id="bestCategories" class="pt-3 pb-3">
+        <div class="container">
+            <h3 class="text-center font-weight-bold mb-1 animated zoomIn">Top Category</h3>
+            <h4 class="text-center font-weight-bold mb-5"><a href="#">See all</a></h4>
+            <div id="carouselSixColumn2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSixColumn2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSixColumn2" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(18).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cloths</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(19).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Table</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(20).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hanging stage</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(21).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Watch for Man</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(22).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ladies Shoes</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(23).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sweeter</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(8).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hand Ring</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(12).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pant</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(9).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Child Toys</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(13).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chair</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(10).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">T-Shirt</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(14).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Plastic Chair</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(11).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">colour Pen</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(15).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sweeter</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(12).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pant</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(16).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sun Glass</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/c-1%20(17).jpeg" class="w-100" height="225" width="225">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Heart Ring</h5>
+                                        <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselSixColumn2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSixColumn2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselSixColumn" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselSixColumn" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-    </div>
-</section>
+    </section>
 
-<!--top category aria goes here-->
-<section id="bestCategories" class="pt-3 pb-3">
-    <div class="container">
-        <h3 class="text-center font-weight-bold mb-1 animated zoomIn">Top Category</h3>
-        <h4 class="text-center font-weight-bold mb-5"><a href="#">See all</a></h4>
-        <div id="carouselSixColumn2" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselSixColumn2" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselSixColumn2" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(18).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cloths</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+    <!--best seller aria goes here-->
+    <section id="bestManufacturer" class="pt-3 pb-3">
+        <div class="container">
+            <h3 class="text-center font-weight-bold mb-1 animated zoomIn">Best Seller</h3>
+            <h4 class="text-center font-weight-bold mb-5"><a href="#">See all</a></h4>
+            <div id="carouselSixColumn1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselSixColumn1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSixColumn1" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(19).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Table</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(20).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hanging stage</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(21).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Watch for Man</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(22).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ladies Shoes</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(23).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Sweeter</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
+                                </div>
+                            </div>
+                            <div class="col-md-2 p-1">
+                                <div class="card">
+                                    <img src="img/seller.jpg" class="w-100" height="225" width="225">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(12).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Pant</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(13).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Chair</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(14).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Plastic Chair</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(15).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Sweeter</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(16).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Sun Glass</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/c-1%20(17).jpeg" class="w-100" height="225" width="225">
-                                <div class="card-body">
-                                    <h5 class="card-title">Heart Ring</h5>
-                                    <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
-                                </div>
-                            </div>
-                        </div>
+                <a class="carousel-control-prev" href="#carouselSixColumn1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselSixColumn1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--banner aria goes here-->
+    <section id="bannerAria" class="pt-2 pb-2">
+        <div class="container">
+            <video width="1140" height="500" controls>
+                <source src="video/Timbaas_Corona_Awareness.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <!--top search aria goes here-->
+    <section id="topSearch" class="pt-3 pb-4">
+        <div class="container-fluid">
+            <h3 class="text-center font-weight-bold mb-5 animated zoomIn">Most Search</h3>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>Diamond jewellery</p>
+                    <img src="img/c-1 (24).jpeg" class="img-fluid mt-4" alt="img" height="250" width="250">
+                </div>
+                <div class="col-sm-3">
+                    <div>
+                        <p>Flower Stage</p>
+                        <img src="img/c-1 (25).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Wood Chair</p>
+                        <img src="img/c-1 (26).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div>
+                        <p>Sound Box</p>
+                        <img src="img/c-1 (27).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Note Book</p>
+                        <img src="img/c-1 (29).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div>
+                        <p>Bag</p>
+                        <img src="img/c-1 (30).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Pant</p>
+                        <img src="img/c-1 (12).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselSixColumn2" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselSixColumn2" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-    </div>
-</section>
-
-<!--best seller aria goes here-->
-<section id="bestManufacturer" class="pt-3 pb-3">
-    <div class="container">
-        <h3 class="text-center font-weight-bold mb-1 animated zoomIn">Best Seller</h3>
-        <h4 class="text-center font-weight-bold mb-5"><a href="#">See all</a></h4>
-        <div id="carouselSixColumn1" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselSixColumn1" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselSixColumn1" data-slide-to="1"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                    </div>
+    </section>
+    <!--footer aria goes here-->
+    <footer class="pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h6 class="font-weight-bold">Get To Know Us</h6>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">About Timbaas</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
-                        <div class="col-md-2 p-1">
-                            <div class="card">
-                                <img src="img/seller.jpg" class="w-100" height="225" width="225">
-                            </div>
-                        </div>
+                <div class="col-sm-3">
+                    <h6 class="font-weight-bold">Grow Your Business</h6>
+                    <ul>
+                        <li><a href="#">How To Sell</a></li>
+                        <li><a href="#">How To Buy</a></li>
+                        <li><a href="#">How to ship a product</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="font-weight-bold">Policies</h6>
+                    <ul>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                        <li><a href="#">Payment</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6 class="font-weight-bold">Customer Services</h6>
+                    <ul>
+                        <li><a href="#">Help Centre</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Submit your ideas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"><i class="fas fa-arrow-up"></i></span></a>
+        </div>
+    </footer>
+    <!--another footer aria goes here-->
+    <section id="anotherFooter" class="pt-3 pb-3">
+        <div class="container p-2">
+            <div class="row">
+                <div class="col-sm-4 mt-4">
+                    <p class="text-center"><a href="#" class="text-center">Register Here</a></p>
+                </div>
+                <div class="col-sm-4">
+                    <a class="navbar-brand d-flex justify-content-center" href="#"><img src="img/Timbaas_1.png" alt="timbaas_logo" height="80" width="80"></a>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-center"><a href="tel:1-847-555-5555">Call Us: 01914653664</a></p>
+                    <p class="text-center">timbaas07@gmail.com</p>
+                    <div class="d-flex justify-content-center mt-1 logo-aria">
+                        <a href="#"><i class="fab fa-linkedin mr-4"></i></a>
+                        <a href="#"><i class="fab fa-facebook mr-4"></i></a>
+                        <a href="#"><i class="fab fa-twitter  mr-4"></i></a>
+                        <a href="#"><i class="fab fa-google-plus"></i></a>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselSixColumn1" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselSixColumn1" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-    </div>
-</section>
-
-<!--banner aria goes here-->
-<section id="bannerAria" class="pt-2 pb-2">
-    <div class="container">
-        <video width="1140" height="500" controls>
-              <source src="video/Timbaas_Corona_Awareness.mp4" type="video/mp4">
-        </video> 
-    </div>
-</section>
-<!--top search aria goes here-->
-<section id="topSearch" class="pt-3 pb-4">
-    <div class="container-fluid">
-        <h3 class="text-center font-weight-bold mb-5 animated zoomIn">Most Search</h3>
-        <div class="row">
-            <div class="col-sm-3">
-                <p>Diamond jewellery</p>
-                <img src="img/c-1 (24).jpeg" class="img-fluid mt-4" alt="img" height="250" width="250">
-            </div>
-            <div class="col-sm-3">
-                <div>
-                    <p>Flower Stage</p>
-                    <img src="img/c-1 (25).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
-                </div>
-                <hr>
-                <div>
-                    <p>Wood Chair</p>
-                    <img src="img/c-1 (26).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div>
-                    <p>Sound Box</p>
-                    <img src="img/c-1 (27).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
-                </div>
-                <hr>
-                <div>
-                    <p>Note Book</p>
-                    <img src="img/c-1 (29).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div>
-                    <p>Bag</p>
-                    <img src="img/c-1 (30).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
-                </div>
-                <hr>
-                <div>
-                    <p>Pant</p>
-                    <img src="img/c-1 (12).jpeg" class="img-fluid mt-2" alt="img" height="150" width="150">
-                </div>
+        <div class="copyright">
+            <div class="container d-flex justify-content-between pt-2 pb-2">
+                <p>Copyright &copy;2020 Timbaas Inc. All Rights Reserved</p>
+                <p>Developed By <a href="https://spinnertech.dev/" target="_blank">Spinner Tech</a></p>
             </div>
         </div>
-    </div>
-</section>
-<!--footer aria goes here-->
-<footer class="pt-3">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <h6 class="font-weight-bold">Get To Know Us</h6>
-                <ul>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">About Timbaas</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6 class="font-weight-bold">Grow Your Business</h6>
-                <ul>
-                    <li><a href="#">How To Sell</a></li>
-                    <li><a href="#">How To Buy</a></li>
-                    <li><a href="#">How to ship a product</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6 class="font-weight-bold">Policies</h6>
-                <ul>
-                    <li><a href="#">Terms & Condition</a></li>
-                    <li><a href="#">Returns & Refunds</a></li>
-                    <li><a href="#">Payment</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h6 class="font-weight-bold">Customer Services</h6>
-                <ul>
-                    <li><a href="#">Help Centre</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Submit your ideas</a></li>
-                </ul>
-            </div>
-        </div>
-        <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"><i class="fas fa-arrow-up"></i></span></a>
-    </div>
-</footer>
-<!--another footer aria goes here-->
-<section id="anotherFooter" class="pt-3 pb-3">
-    <div class="container p-2">
-        <div class="row">
-            <div class="col-sm-4 mt-4">
-                <p class="text-center"><a href="#" class="text-center">Register Here</a></p>
-            </div>
-            <div class="col-sm-4">
-                <a class="navbar-brand d-flex justify-content-center" href="#"><img src="img/Timbaas_1.png" alt="timbaas_logo" height="80" width="80"></a>
-            </div>
-            <div class="col-sm-4">
-                <p class="text-center"><a href="tel:1-847-555-5555">Call Us: 01914653664</a></p>
-                <p class="text-center">timbaas07@gmail.com</p>
-                <div class="d-flex justify-content-center mt-1 logo-aria">
-                    <a href="#"><i class="fab fa-linkedin mr-4"></i></a>
-                    <a href="#"><i class="fab fa-facebook mr-4"></i></a>
-                    <a href="#"><i class="fab fa-twitter  mr-4"></i></a>
-                    <a href="#"><i class="fab fa-google-plus"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <div class="container d-flex justify-content-between pt-2 pb-2">
-            <p>Copyright &copy;2020 Timbaas Inc. All Rights Reserved</p>
-            <p>Developed By <a href="https://spinnertech.dev/" target="_blank">Spinner Tech</a></p>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 
@@ -1204,89 +1280,81 @@
 
 
 
-<!--optional javascript-->
+    <!--optional javascript-->
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script type='text/javascript' src="js/bootstrap.min.js"></script>
-<script src="js/jquery-2.2.3.min.js"></script>
-
-
-<script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.2.3.min.js"></script>
 
 
- 
-    // jQuery for category collapse
+    <script>
+        // jQuery for category collapse
 
 
-    $(".demo").hover(function(){
-        $('#demo').show();
-    },function(){
-        $('#demo').hide();
-    });
-
-   $("#demo").hover(function(){
-        $('#demo').show();
-    },function(){
-        $('#demo').hide();
-    });
-
-
-
-   // navbar fixed js goes here
-
-    $(document).ready(function() {
-
-        $(window).scroll(function () {
-
-            console.log($(window).scrollTop());
-
-            if ($(window).scrollTop() > 400) {
-                $('.fixed').addClass('fixed-top');
-            }
-
-            if ($(window).scrollTop() < 400) {
-                $('.fixed').removeClass('fixed-top');
-            }
-        });
-    });
-
-
-    // jquery for to top
-
-    $(document).ready(function(){
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('#back-to-top').fadeIn();
-            } else {
-                $('#back-to-top').fadeOut();
-            }
-        });
-        // scroll body to 0px on click
-        $('#back-to-top').click(function () {
-            $('#back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
+        $(".demo").hover(function() {
+            $('#demo').show();
+        }, function() {
+            $('#demo').hide();
         });
 
-        $('#back-to-top').tooltip('show');
-
-    });
-
-
-   
-
-</script>
+        $("#demo").hover(function() {
+            $('#demo').show();
+        }, function() {
+            $('#demo').hide();
+        });
 
 
 
+        // navbar fixed js goes here
+
+        $(document).ready(function() {
+
+            $(window).scroll(function() {
+
+                console.log($(window).scrollTop());
+
+                if ($(window).scrollTop() > 400) {
+                    $('.fixed').addClass('fixed-top');
+                }
+
+                if ($(window).scrollTop() < 400) {
+                    $('.fixed').removeClass('fixed-top');
+                }
+            });
+        });
 
 
-</body>
-</html>
+        // jquery for to top
+
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function() {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('#back-to-top').tooltip('show');
+
+        });
+    </script>
+
+
+
+
+
+</body></html>

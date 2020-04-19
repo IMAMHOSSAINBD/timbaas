@@ -1,18 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Timbaas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Fontawsome-->
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/jquery.nice-number.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
-    <link rel="icon" href="img/tab_logo.png">
+    <title>Hello, world!</title>
 </head>
 
 <body>
@@ -76,12 +82,15 @@
             </div>
         </div>
     </header>
-    <hr>
+
+
+
+
     <!-- category area goes here -->
     <section id="categoryAria">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row pt-2 pb-2 main-row">
-                <div class="col-4">
+                <div class="col-md-2">
                     <a href="#" class="font-weight-bold p-2 demo">Categories</a>
                     <ul id="demo" class="mt-1 ul-aria">
                         <li class="p-2"><a href="#">Consumer Electronics <span><i class="fas fa-chevron-right ml-5"></i></span></a>
@@ -670,11 +679,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-md-5">
 
                 </div>
-                <div class="col-4">
-                    <div class="nav">
+                <div class="col-md-5">
+                    <div class="nav left-nav">
                         <li class="nav-item">
                             <a class="nav-link font-weight-bold demo-text" href="#" style="color: #000000">Become a seller</a>
                         </li>
@@ -683,13 +692,18 @@
                         </li>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
+
     <!-- ================================
         product details area goes here
     ================================= -->
+    <section>
+
+    </section>
     <div id="breadcrumb">
         <div class="container">
             <div>
@@ -704,6 +718,9 @@
             </div>
         </div>
     </div>
+
+
+
     <!-- =============================
         product details section goes here
         =============================== -->
@@ -711,7 +728,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-sm-6 mb-4">
+                <div class="col-md-6 mb-4">
                     <div class="xzoom-container">
                         <img class="xzoom img-fluid" id="xzoom-default" src="img/13-296x396.jpg" xoriginal="img/13-600x834.jpg" />
                         <div class="xzoom-thumbs mt-3">
@@ -764,20 +781,48 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+
+                <div class="col-md-6">
                     <div class="side-cart text-center">
-                        <div class="">
+                        <div class="cart-top-btn">
                             <a href="#" class="btn " target="_blank">Sample Order</a>
-                        </div>
-                        <div class="pb-4">
                             <a href="#" class="btn " target="_blank">Customize</a>
                         </div>
+
                         <hr>
                         <div class="cart-btn">
-                            <a href="#" target="_blank">Cart</a>
+                            <a href="#" target="_blank">Add to Cart</a>
                         </div>
                         <div class="img-overlay btn ">
 
+                        </div>
+
+                        <div class="cart-bottom">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="border">
+                                        <p> <span>3,786</span>
+                                            <br>
+                                            Sold</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="border">
+                                        <p> <span>Free</span>
+                                            <br>
+                                            Shipping</p>
+
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="border">
+                                        <p> <span>3,832</span>
+                                            <br>
+                                            Watchers</p>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 
@@ -787,7 +832,8 @@
 
 
                 </div>
-                <!--
+            </div>
+            <!--
                 <div class="col-sm-7">
                     <h2>Designer Red Dress</h2>
                     <div class="review d-flex justify-content-between">
@@ -832,7 +878,7 @@
                         </div>
                     </div>
                 </div>
--->
+
             </div>
 
             <!-- Product Description div -->
@@ -840,61 +886,67 @@
             <div id="product-des">
 
                 <div class="product-detail">
-                    <h4 class="pb-4">Swapon's World Special Cotton Panjabi For Men
-                    </h4>
+
                     <div class="row">
                         <div class="col-md-8">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Price</th>
-                                        <td scope="col">24000</td>
-                                        <td scope="col">To</td>
-                                        <td scope="col">32000</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="col">Quantity</th>
-                                        <td>Min</td>
-                                        <td>To</td>
-                                        <td>Max</td>
-                                    </tr>
-                                    <tr>
-                                        <th> </th>
-                                        <td><input type="number" value="1"></td>
-                                        <td></td>
-                                        <td><input type="number" value="1"></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">Variation</th>
-                                        <th>Size</th>
-                                        <td></td>
-                                        <th>Color</th>
-                                    </tr>
-                                    <tr>
-                                        <th> </th>
-                                        <td colspan="2"> <span class="size">38</span>
-                                            <span class="size">40</span>
-                                            <span class="size">42</span>
-                                            <span class="size">44</span>
-                                        </td>
+                            <div class="product-table">
+                                <h4 class="pb-4">Swapon's World Special Cotton Panjabi For Men
+                                </h4>
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Price</th>
+                                            <td scope="col">24000</td>
+                                            <td scope="col">To</td>
+                                            <td scope="col">32000</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="col">Quantity</th>
+                                            <td>Min</td>
+                                            <td>To</td>
+                                            <td>Max</td>
+                                        </tr>
+                                        <tr>
+                                            <th> </th>
+                                            <td><input type="number" value="1"></td>
+                                            <td></td>
+                                            <td><input type="number" value="1"></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Variation</th>
+                                            <th>Size</th>
+                                            <td></td>
+                                            <th>Color</th>
+                                        </tr>
+                                        <tr>
+                                            <th> </th>
+                                            <td colspan="2"> <span class="size">38</span>
+                                                <span class="size">40</span>
+                                                <span class="size">42</span>
+                                                <span class="size">44</span>
+                                            </td>
 
-                                        <td>
-                                            <span class="color">Red</span>
-                                            <span class="color">Blue</span>
-                                            <span class="color">Black</span>
-                                            <span class="color">White</span></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                            <td>
+                                                <span class="color">Red</span>
+                                                <span class="color">Blue</span>
+                                                <span class="color">Black</span>
+                                                <span class="color">White</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
                         </div>
+
                     </div>
 
                 </div>
 
             </div>
 
+            <!--
             <div class="details">
                 <div class="mb-4">
                     <h4 class="text-uppercase"> <span></span>Short Description</h4>
@@ -917,7 +969,7 @@
                 </div>
 
                 <div>
-                    <h4 class="text-uppercase"> <span></span>Product Peatures</h4>
+                    <h4 class="text-uppercase"> <span></span>Product Features</h4>
                     <div class="ml-4 pl-4 mt-3">
                         <ul>
                             <li>quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,</li>
@@ -957,53 +1009,87 @@
 
 
             </div>
+-->
 
             <!--description tab area goes here-->
-            <!--
+
             <div class="col-sm-12">
                 <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+                        <a class="nav-link active" id="shortDes-tab" data-toggle="tab" href="#shortDes" role="tab" aria-controls="shortDes" aria-selected="true">Short Description</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Additional Information</a>
+                        <a class="nav-link" id="features-tab" data-toggle="tab" href="#features" role="tab" aria-controls="features" aria-selected="false">Product Features</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="details-tab" data-toggle="tab" href="#details" role="tab" aria-controls="details" aria-selected="false">Details</a>
+                    </li>
+
+
                 </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <h5 class="pt-4">Paragraph text</h5>
-                        <p class="pt-2">Nam tristique porta ligula, vel viverra sem eleifend nec. Nulla sed purus augue, eu euismod tellus. Nam mattis eros nec mi sagittis sagittis. Vestibulum suscipit cursus bibendum. Integer at justo eget sem auctor auctor eget vitae arcu. Nam tempor malesuada porttitor. Nulla quis dignissim ipsum. Aliquam pulvinar iaculis justo, sit amet interdum sem hendrerit vitae. Vivamus vel erat tortor. Nulla facilisi. In nulla quam, lacinia eu aliquam ac, aliquam in nisl.</p>
-                        <h5 class="pt-4">Unordered list</h5>
-                        <ol class="pt-2">
+                <div class="tab-content details" id="myTabContent">
+                    <div class="tab-pane fade show active" id="shortDes" role="tabpanel" aria-labelledby="shortDes-tab">
+                        <div class="shortDes-Div pt-3">
+                            <div class="d-flex mt-3">
+                                <p> <img src="img/check.gif" width="30px" height="30px" alt="" style="border-radius: 100%; margin-right: .5rem; box-shadow: 0 2px 5px rgba(0, 0, 0, .5);"></p>
 
-                            <li>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>2. Maecenas ullamcorper est et massa mattis condimentum.</li>
-                            <li>3. Vestibulum sed massa vel ipsum imperdiet malesuada id tempus nisl.</li>
-                            <li>4. Etiam nec massa et lectus faucibus ornare congue in nunc.</li>
-                            <li>5. Mauris eget diam magna, in blandit turpis.</li>
-                        </ol>
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <table class="table">
-                            <tr>
-                                <th scope="col">Weight</th>
-                                <td scope="col">56 kg</td>
-                            </tr>
-                            <tr>
-                                <th scope="col">Color</th>
-                                <td scope="col">Blue, Pink</td>
-                            </tr>
-                            <tr>
-                                <th scope="col">size</th>
-                                <td scope="col"> Medium, Small</td>
-                            </tr>
+                                <p class="text-justify">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,</p>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p> <img src="img/check.gif" width="30px" height="30px" alt="" style="border-radius: 100%; margin-right: .5rem; box-shadow: 0 2px 5px rgba(0, 0, 0, .5);"></p>
 
-                        </table>
+                                <p class="text-justify">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,</p>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p> <img src="img/check.gif" width="30px" height="30px" alt="" style="border-radius: 100%; margin-right: .5rem; box-shadow: 0 2px 5px rgba(0, 0, 0, .5);"></p>
+
+                                <p class="text-justify">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,</p>
+                            </div>
+                        </div>
                     </div>
+                    <div class="tab-pane fade" id="features" role="tabpanel" aria-labelledby="features-tab">
+                        <div class="features-Div pt-3">
+
+                            <div class="ml-4 pl-4 mt-3">
+                                <ul>
+                                    <li>quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,</li>
+                                    <li>quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,</li>
+                                    <li>quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,</li>
+                                    <li>quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
+
+                        <div class="details-div pt-3">
+                            <div class="d-flex mt-3">
+                                <p> <img src="img/check.gif" width="30px" height="30px" alt="" style="border-radius: 100%; margin-right: .5rem; box-shadow: 0 2px 5px rgba(0, 0, 0, .5);"></p>
+
+                                <p class="text-justify">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,
+                                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,</p>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p> <img src="img/check.gif" width="30px" height="30px" alt="" style="border-radius: 100%; margin-right: .5rem; box-shadow: 0 2px 5px rgba(0, 0, 0, .5);"></p>
+
+                                <p class="text-justify">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,
+                                    Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,</p>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p> <img src="img/check.gif" width="30px" height="30px" alt="" style="border-radius: 100%; margin-right: .5rem; box-shadow: 0 2px 5px rgba(0, 0, 0, .5);"></p>
+
+                                <p class="text-justify">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem,</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
--->
 
+            <!--
             <h3 class="text-center pt-5 pb-5">Related Products</h3>
             <div id="carouselSixColumn" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -1137,6 +1223,164 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+-->
+        </div>
+    </section>
+
+
+    <section id="relatedProduct">
+        <div class="">
+            <h4 class="text-center pb-4">Releted Product</h4>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card">
+                        <img src="img/c-1%20(1).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+
+                            <h5 class="card-title">Wear Drop</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(2).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Nice Shows</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(3).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Cloths</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(4).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Pant</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(5).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Cloths</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(6).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Simple shoe</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(7).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Texas Instrument</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(8).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Hand Ring</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(9).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Child Toys</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(10).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">T-Shirt</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(11).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">colour Pen</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+
+                    <div class="card">
+                        <img src="img/c-1%20(12).jpeg" class="w-100" height="225" width="225">
+                        <div class="card-body">
+                            <p class="product-title"><a href="#">Mpow Wireless Bluetooth 5.0 Earbuds Headset ...</a></p>
+                            <h5 class="card-title">Pant</h5>
+                            <p class="card-text font-weight-bold">&#x9f3; 0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
         </div>
     </section>
 
@@ -1194,13 +1438,13 @@
     <section id="anotherFooter" class="pt-3 pb-3">
         <div class="container p-2">
             <div class="row">
-                <div class="col-sm-4 mt-4">
+                <div class="col-md-4 mt-4">
                     <p class="text-center"><a href="#" class="text-center">Register Here</a></p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <a class="navbar-brand d-flex justify-content-center" href="#"><img src="img/Timbaas_1.png" alt="timbaas_logo" height="80" width="80"></a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <p class="text-center"><a href="tel:1-847-555-5555">Call Us: 01914653664</a></p>
                     <p class="text-center">timbaas07@gmail.com</p>
                     <div class="d-flex justify-content-center mt-1 logo-aria">
@@ -1213,9 +1457,17 @@
             </div>
         </div>
         <div class="copyright">
-            <div class="container d-flex justify-content-between pt-2 pb-2">
-                <p>Copyright &copy;2020 Timbaas Inc. All Rights Reserved</p>
-                <p>Developed By <a href="https://spinnertech.dev/" target="_blank">Spinner Tech</a></p>
+            <div class="container  pt-2 pb-2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Copyright &copy;2020 Timbaas Inc. All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <p>Developed By <a href="https://spinnertech.dev/" target="_blank">Spinner Tech</a></p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </section>
@@ -1225,19 +1477,28 @@
 
 
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
-    <!--optional javascript-->
+    <!--
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
+-->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
 
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
     <script src="js/jquery.nice-number.min.js"></script>
+
+
+    <script src="js/owl.carousel.min.js"></script>
     <script src='https://unpkg.com/xzoom/dist/xzoom.min.js'></script>
     <script src='https://hammerjs.github.io/dist/hammer.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js'></script>
-    <script src="js/bootstrap.min.js"></script>
+
     <script src="js/zoom.js"></script>
+
+    <script src="js/xzoomsetup.js"></script>
 
 
 
@@ -1306,6 +1567,28 @@
             $('input[type="number"]').niceNumber();
 
         });
+
+
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
     </script>
 
 
