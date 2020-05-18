@@ -75,23 +75,35 @@
     #categoryAria .demo {
         margin-left: 0;
     }
+
     #anotherFooter .col-md-4:first-child p {
         width: auto;
         text-align: center;
-        
+
     }
-    .copyright, .copyright .text-right {
-        text-align: center!important;
+
+    .copyright,
+    .copyright .text-right {
+        text-align: center !important;
     }
-    
+
 }
 
-@media (max-width: 991px) {
+@media (max-width: 930px) {
 
     #product #product-des .product-detail .size,
     #product #product-des .product-detail .color {
         font-size: 10px;
 
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .sub-menu {
+        width: 160%;
+        font-size: .5rem;
     }
 
 }
