@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>timbas customer registration</title>
     <meta charset="utf-8">
@@ -78,6 +79,7 @@
 
 
     <!-- category area goes here -->
+<!--
     <section id="categoryAria">
         <div class="container">
             <div class="row pt-2 pb-2 main-row">
@@ -687,6 +689,7 @@
             </div>
         </div>
     </section>
+-->
 
 
     <div class="wraper">
@@ -694,27 +697,39 @@
         <div class="payment_page p-5">
             <div class="row">
                 <div class="col-md-12">
+                    <div class="store-top-tittle mb-4">
+                        <img src="img/store-setup-img.png" width="60px" class="img-fluid" alt="">
+
+                        <h3 class="d-inline-block">Store Setup</h3>
+                    </div>
+
                     <div class="col-lg-12 text-center">
                         <div class="container">
+                            <!--
                             <div class="mt-5 mb-5 text-center">
                                 <h2>Seller Registration Form</h2>
                             </div>
+-->
                             <ul class="step d-flex flex-nowrap">
                                 <li class="step-item">
-                                    <a href="#!" class="">profile 0%</a>
-                                </li>
-                                <li class="step-item">
-                                    <a href="#!" class="">profile 30%</a>
+                                    <a href="#!" class="">Store 0%</a>
                                 </li>
                                 <li class="step-item active">
-                                    <a href="#!" class="">profile 60%</a>
+                                    <a href="#!" class="">Payment 20%</a>
+                                </li>
+                                <li class="step-item ">
+                                    <a href="#!" class="">Policies 40%</a>
                                 </li>
                                 <li class="step-item">
-                                    <a href="#!" class="">profile 80%</a>
+                                    <a href="#!" class="">SEO 60%</a>
                                 </li>
                                 <li class="step-item">
-                                    <a href="#!" class="">profile 100%</a>
+                                    <a href="#!" class="">Customer Support 80%</a>
                                 </li>
+                                <li class="step-item">
+                                    <a href="#!" class="">Ready 100%</a>
+                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -786,8 +801,27 @@
                                         <hr>
 
                                     </form>
+
+
+                                    <div class="store-btn">
+                                        <button type="submit" class="continue-btn">
+                                            <a href="policies.html">Continue</a>
+
+
+                                        </button>
+                                        <button class="skip-btn">
+                                            <a href="#" class="text-primary">
+                                                Skip this step
+                                            </a>
+                                        </button>
+
+
+                                    </div>
+
+                                    <!--
                                     <button class="btn rounded-0 1st-btn float-right btn-info">Submit <i class="fas fa-chevron-circle-right ml-2"></i></button>
                                     <button class="btn rounded-0 2nd-btn float-right btn-success d-none">success <i class="far fa-check-circle ml-2"></i></button>
+-->
                                 </div>
                             </div>
                             <!-- /form card cc payment -->
@@ -897,6 +931,7 @@
                     $(".2nd-btn").removeClass("d-none");
                 })
             })
+
         </script>
 
         <script>
@@ -964,10 +999,13 @@
                 $('#back-to-top').tooltip('show');
 
             });
+
         </script>
 
 
 
 
 
-</body></html>
+</body>
+
+</html>

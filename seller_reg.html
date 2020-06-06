@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>timbas customer registration</title>
     <meta charset="utf-8">
@@ -761,7 +762,7 @@
                                 <div class="col-lg-12">
                                     <div class="input-group   mb-4">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text bg-info text-light">Store/Bussiness Name</span>
+                                            <span class="input-group-text bg-info text-light">Store/Bussiness Name <span class="text-danger required-star">*</span></span>
                                         </div>
                                         <input type="text" class="form-control ml-2" placeholder="Enter Store/Bussiness Name" required>
                                     </div>
@@ -769,7 +770,7 @@
                                 <div class="col-lg-12">
                                     <div class="input-group mb-4">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text bg-info text-light">Name</span>
+                                            <span class="input-group-text bg-info text-light">Name <span class="text-danger required-star">*</span></span>
                                         </div>
                                         <input type="text" class="form-control ml-2" placeholder="First Name" required>
                                         <input type="text" class="form-control ml-2" placeholder="Last Name" required>
@@ -879,7 +880,7 @@
                                             <span class="input-group-text bg-info text-light">wholeseller </span>
                                         </div>
                                         <div class="form-check ml-4">
-                                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                                            <input class="form-check-input position-static" type="checkbox" id="wholeseller" value="option1" aria-label="...">
                                         </div>
                                     </div>
                                 </div>
@@ -889,7 +890,7 @@
                                             <span class="input-group-text bg-info text-light">Manufacturer </span>
                                         </div>
                                         <div class="form-check ml-4">
-                                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                                            <input class="form-check-input position-static" type="checkbox" id="Manufacturer" value="option1" aria-label="...">
                                         </div>
                                     </div>
                                 </div>
@@ -899,7 +900,7 @@
                                             <span class="input-group-text bg-info text-light">Supplier </span>
                                         </div>
                                         <div class="form-check ml-4">
-                                            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                                            <input class="form-check-input position-static" type="checkbox" id="supplier" value="option1" aria-label="...">
                                         </div>
                                     </div>
                                 </div>
@@ -935,9 +936,22 @@
                                 </div>
 
                                 <div class="text-center mt-2 w-100">
-                                    <button type="submit " class="btn-primary">
+                                    <!--
+
+                                    <button class="btn-primary">
+
                                         Register
+
                                     </button>
+-->
+
+
+                                    <button type="" class="btn-primary">
+                                        <a href="payment.html" class="text-light">Register</a>
+
+
+                                    </button>
+
                                 </div>
                             </form>
                         </div>
@@ -1034,7 +1048,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <script src="js/formProgressBar.jquery.js"></script>
+    <!--    <script src="js/formProgressBar.jquery.js"></script>-->
     <script>
         // jQuery for category collapse
 
@@ -1097,9 +1111,12 @@
 
 
         // Form Proress bar JS
-        $("form").formProgressBar({
-            percentCounting: true, // default: false
-            transitionTime: 500,
-        });
+        //        $("form").formProgressBar({
+        //            percentCounting: true, // default: false
+        //            transitionTime: 500,
+        //        });
+
     </script>
-</body></html>
+</body>
+
+</html>
