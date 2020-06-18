@@ -2549,7 +2549,8 @@ footer .btn-primary {
     padding: 1rem;
 }
 
-.user-account-content .user__content .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.user-account-content .user__content .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
     background: transparent;
     color: #009ffd;
 }
