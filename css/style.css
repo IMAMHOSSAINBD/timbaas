@@ -39,6 +39,12 @@ header .input-group {
     border-color: #ffffff !important;
 }
 
+.btn {
+    box-shadow: none;
+    margin: auto;
+    padding: 0 .5rem !important;
+}
+
 .fa-facebook {
     color: #3B5998;
     font-size: 1.5rem;
@@ -176,6 +182,7 @@ header .container-fluid {
 .navbar {
     background-color: #084177 !important;
     margin-left: 25%;
+    box-shadow: none;
 }
 
 .navbar .nav-link {
@@ -207,7 +214,7 @@ header .input-group-prepend {
 }
 
 /*style for category aria*/
-#categoryAria .col-md-2 #demo {
+#categoryAria .col-sm-2 #demo {
     position: absolute;
     background-color: #f2f3f7;
     width: 270px;
@@ -216,8 +223,12 @@ header .input-group-prepend {
     display: none;
 }
 
-#categoryAria .col-md-2 #demo li a {
+#categoryAria .col-sm-2 #demo li a {
     color: #000000;
+}
+
+#categoryAria .nav {
+    float: right;
 }
 
 #categoryAria .nav .nav-link:hover {
@@ -1081,6 +1092,7 @@ header .input-group-prepend {
     border-radius: 10px;
     -webkit-transition: 1s all;
     transition: 1s all;
+    margin-top: .5rem;
 }
 
 #whyJoin .whyJoin-heading {
@@ -1100,6 +1112,7 @@ header .input-group-prepend {
     -webkit-transition: 1s all;
     transition: 1s all;
     border: 1px solid transparent;
+
 
 }
 
@@ -1269,7 +1282,7 @@ header .input-group-prepend {
 
 footer {
     background-color: #008ed3;
-    padding-bottom: 100px;
+    padding-bottom: 1rem;
 }
 
 footer ul {
@@ -1324,7 +1337,7 @@ footer h6 {
 }
 
 #anotherFooter p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
@@ -1394,7 +1407,9 @@ footer .btn-primary {
 }
 
 
-
+.seller-reg .btn-primary {
+    widows: 50%;
+}
 
 
 /* ==============================*/
@@ -2371,6 +2386,10 @@ footer .btn-primary {
     content: 'Attachment';
 }
 
+.custom-file {
+    width: 150px;
+}
+
 
 
 
@@ -2553,4 +2572,193 @@ footer .btn-primary {
 .nav-pills .show > .nav-link {
     background: transparent;
     color: #009ffd;
+}
+
+
+.user-account-content .tab-content {
+    margin-top: 2rem;
+}
+
+
+
+
+/* ============ Store Profile Page ======= */
+
+#storeProfile-top {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    position: relative;
+    width: 100%;
+    padding: 2rem 1rem .2rem 2rem;
+
+}
+
+#storeProfile-wrap {
+    position: relative;
+    bottom: 0;
+    padding: 1rem;
+    width: 50%;
+    background: white;
+    color: black;
+
+
+
+}
+
+.small-text {
+    font-size: .8rem;
+}
+
+
+#storeProfile .chat {
+    color: #3B5998;
+}
+
+#storeProfile .follow {
+    color: #008ed3;
+}
+
+#store-product #phils-area {
+    padding: 1rem;
+}
+
+#store-product #phils-area .nav-item .active {
+    background: transparent;
+    color: #008ed3;
+    padding-bottom: 1rem;
+    border-radius: 0%;
+}
+
+
+/*
+#store-product #phils-area {
+    z-index: 9999;
+    background: red !important;
+
+}
+*/
+
+
+#store-product #phils-area {
+    background: #F8F9FB;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#store-product #phils-area .nav-pills .active {
+    border-bottom: 2px solid orange;
+
+    font-weight: bold;
+}
+
+#store-product #phils-area .nav-pills .active a {
+    color: orange !important;
+}
+
+#store-product #phils-area .nav-pills .nav-item a {
+    color: gray;
+}
+
+#store-product .tab-content .store-product-div {
+    background: #F2F3F7;
+    padding: .4rem;
+}
+
+#store-profile-top {
+    padding: 1rem;
+    background: #F8F9FB;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+#store-profile-middle {
+    padding: 1rem;
+    background: #F8F9FB;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#store-profile-middle .progress {
+    margin-bottom: 0;
+    width: auto;
+    margin-top: .2rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+#store-profile-middle .progress-bar {
+    background: #008ED3;
+}
+
+
+#store-profile-middle .table-container .tbody tr {
+    background-color:
+}
+
+#store-profile-middle .panel-default .fa-smile-beam {
+    color: lightgreen;
+}
+
+#store-profile-middle .panel-default .fa-meh {
+    color: lightgray;
+}
+
+#store-profile-middle .panel-default .fa-frown {
+    color: red;
+}
+
+
+#store-profile-middle .pagination .page-item.active .page-link,
+.store-profile-bottom .pagination .page-item.active .page-link {
+    background: lightgray;
+    color: white;
+    font-weight: bold;
+    border: 1px solid lightgray;
+
+}
+
+
+#store-profile-middle .pagination .page-link,
+.store-profile-bottom .pagination .page-link {
+    color: gray;
+}
+
+#store-profile-bottom {
+    padding: 1rem;
+    background: #F8F9FB;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+#product-demo .col-md-4 img {
+    width: 200px;
+    height: 250px;
+    transition: 1s all;
+    border-radius: 10px;
+}
+
+
+#product-demo .col-md-4 .overlay {
+    overflow: hidden;
+    padding: 1rem;
+    background: #F8F9FB;
+    transition: 1s all;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(38, 38, 38, 0.23);
+    -moz-box-shadow: 0px 0px 7px 2px rgba(38, 38, 38, 0.23);
+    box-shadow: 0px 0px 7px 2px rgba(38, 38, 38, 0.23);
+
+}
+
+#product-demo .col-md-4 .overlay:hover img {
+    transform: scale(1.1);
+    transition: 1s all;
+}
+
+.sidebar {
+    background: #F8F9FB;
+    padding: 1rem;
+    border: 1px solid lightgray
 }
