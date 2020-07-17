@@ -4434,7 +4434,7 @@ tbody.collapse.in {
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    right: 0;
+    left: 0;
     z-index: 1000;
     display: none;
     float: left;
@@ -4452,6 +4452,13 @@ tbody.collapse.in {
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
 }
+
+
+/*
+li .open .dropdown-menu {
+    left: -120px;
+}
+*/
 
 .dropdown-menu.pull-right {
     right: 0;

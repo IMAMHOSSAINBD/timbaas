@@ -735,21 +735,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 py-4">
+                <div class="col-md-12">
                     <div class="container identity">
-                        <h3 class="text-dark font-weight-bold py-2"><i class="fas fa-square mr-2"></i> Your Identity Verification</h3>
+                        <h3 class="text-dark font-weight-bold py-2 tittleMain "><i class="fas fa-square mr-2"></i> Your Identity Verification</h3>
                         <hr>
-                        <form action="">
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
+                        <form action="post">
+                            <!--
+                            <div class="input-group license-No  mb-3">
+                                <div class=" input-group-prepend">
                                     <span class="input-group-text">NID/Passport/Driving License No.</span>
                                 </div>
-                                <input type="text" class="form-control" maxlength="20" placeholder="Number" required="required">
-                                <div class="input-group-prepend">
+
+                                <input type="text" class="form-control w-100 " maxlength="20" placeholder="Number" required="required">
+
+
+                                <div class=" input-group-prepend">
                                     <label for="attfile" class="input-group-text" required="required">Attatch Document</label>
                                 </div>
                                 <input type="file" id="attfile" style="display: none;">
                             </div>
+-->
+
+
+                            <div class="form-group row ">
+                                <p for="identity" class="col-sm-5 border pr-0 pt-2 bg-light pb-0  ">NID/Passport/Driving License No.</p>
+                                <div class="col-sm-5 pl-0 pr-0 ">
+                                    <input type="text" class="form-control border p-4" id="identity" placeholder="Enter Number">
+                                </div>
+                                <div class="col-sm-2 pl-0 pr-0 text-center  ">
+                                    <div class="form-group bg-light border p-2">
+                                        <label for="File1">Attatch Document </label>
+                                        <input type="file" class="form-control-file d-none" id="File1">
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </form>
                     </div>
                 </div>
@@ -759,7 +780,7 @@
                             <span class="anchor" id="formPayment"></span>
                             <!-- form card cc payment -->
                             <div class="card">
-                                <h3 class="text-dark font-weight-bold py-2"><i class="fas fa-square mr-2"></i>Update your payment option to complete your profile</h3>
+                                <h3 class="text-dark font-weight-bold py-2 tittleMain"><i class="fas fa-square mr-2"></i>Update your payment option to complete your profile</h3>
                                 <hr>
                                 <div class="card-body">
                                     <form class="form" role="form" autocomplete="off">
@@ -805,7 +826,7 @@
 
 
                                     <div class="store-btn">
-                                        <button type="submit" class="continue-btn">
+                                        <button type="submit" class="continue-btn mb-2">
                                             <a href="policies.html">Continue</a>
 
 
@@ -877,7 +898,7 @@
                         </ul>
                     </div>
                 </div>
-                <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"><i class="fas fa-arrow-up"></i></span></a>
+                <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"><i class="fas fa-arrow-up mt-3"></i></span></a>
             </div>
         </footer>
         <!--another footer aria goes here-->
@@ -932,7 +953,6 @@
                     $(".2nd-btn").removeClass("d-none");
                 })
             })
-
         </script>
 
         <script>
@@ -1000,13 +1020,10 @@
                 $('#back-to-top').tooltip('show');
 
             });
-
         </script>
 
 
 
 
 
-</body>
-
-</html>
+</body></html>

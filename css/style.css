@@ -1365,12 +1365,17 @@ footer h6 {
     right: 20px;
     display: none;
     z-index: 999;
+
 }
 
 footer .btn-primary {
     width: 50px;
     height: 50px;
     border-radius: 0 !important;
+}
+
+.back-to-top i {
+    padding-top: 1rem
 }
 
 
@@ -1408,7 +1413,7 @@ footer .btn-primary {
 
 
 .seller-reg .btn-primary {
-    widows: 50%;
+    width: 50%;
 }
 
 
@@ -1909,6 +1914,9 @@ footer .btn-primary {
     background-image: url("../img/bata-cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+
 }
 
 .regs-3 .col-lg-12.p-c h1 {
@@ -2001,7 +2009,7 @@ footer .btn-primary {
 }
 
 .seo_page .seo-setup-body {
-    width: 80%;
+
     background: white;
     padding: 2rem;
 
@@ -2306,6 +2314,10 @@ footer .btn-primary {
 
 }
 
+.ready-body .go-dashboard a {
+    display: inline-block;
+}
+
 
 
 
@@ -2579,6 +2591,12 @@ footer .btn-primary {
     margin-top: 2rem;
 }
 
+/*
+.user-account-content .user__content .nav .nav-link {
+    border-bottom: 1px solid blue;
+}
+*/
+
 
 
 
@@ -2732,15 +2750,14 @@ footer .btn-primary {
 }
 
 
-#product-demo .col-md-4 img {
-    width: 200px;
-    height: 250px;
+#product-demo .col-sm-4 img {
+
     transition: 1s all;
     border-radius: 10px;
 }
 
 
-#product-demo .col-md-4 .overlay {
+#product-demo .col-sm-4 .overlay {
     overflow: hidden;
     padding: 1rem;
     background: #F8F9FB;
@@ -2752,7 +2769,7 @@ footer .btn-primary {
 
 }
 
-#product-demo .col-md-4 .overlay:hover img {
+#product-demo .col-sm-4 .overlay:hover img {
     transform: scale(1.1);
     transition: 1s all;
 }

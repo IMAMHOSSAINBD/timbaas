@@ -36,8 +36,8 @@
     position: absolute;
     width: 9.5rem;
     height: 9.5rem;
-    top: 49px;
-    left: 64px;
+    top: 3px;
+    left: 71px;
     border-radius: 50%;
 }
 
@@ -45,9 +45,22 @@
     display: block;
 }
 
-.cover img.img-fluid.rounded-circle.p-p.ml-5.my-auto {
+
+@media (max-width : 991.99px) {
+    .cover-img .profile-img {
+        text-align: center;
+
+    }
+
+    .cover .p-h.text-light {
+        top: 3px;
+        left: 51%;
+    }
+}
+
+.cover img.img-fluid.rounded-circle.p-p.my-auto {
     position: relative;
-    top: 46px;
+    top: 0;
     left: 54px;
     border-radius: 50%;
 }
@@ -80,6 +93,8 @@
     background-image: url("../img/cover-img.png");
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
 }
 
 .cover .store-tittle {

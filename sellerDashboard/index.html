@@ -152,7 +152,7 @@
                 <div class="">
                     <div class="cover-img pb-5">
                         <div class="row mr-0 ml-0 mt-0 mb-0">
-                            <div class="col-md-1">
+                            <div class="col-md-3">
                                 <span>
                                     <button class="btn btn-light btn-sm text-dark rounded-0 cover-img-up">
                                         <label for="file-b"><i class="fa fa-photo fa-2x"></i><br>Change</label>
@@ -160,9 +160,9 @@
                                     <input type="file" id="file-b" style="visibility:hidden;" accept="image/*">
                                 </span>
                             </div>
-                            <div class="col-lg-2 rounded-circle">
+                            <div class=" col-md-3 mb-4">
                                 <div class="profile-img">
-                                    <img src="img/profile-photos/10.png" alt="Profile Picture" class="img-fluid rounded-circle p-p ml-5 my-auto">
+                                    <img src="img/profile-photos/10.png" alt="Profile Picture" class="img-fluid rounded-circle p-p my-auto">
                                     <div class="p-h text-light">
                                         <label for="file-c" class="p-h-t text-center">
                                             <i class="fa fa-photo"></i> Change
@@ -171,7 +171,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-8">
+                            <div class="col-md-6 col-12">
                                 <h1 class="store-tittle">Store / Business Name</h1>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
 
 
                     </ul>
-                    <ul class="nav navbar-top-links pull-right">
+                    <ul class="nav navbar-top-links pull-left">
 
 
                         <!--Notification dropdown-->
@@ -375,6 +375,13 @@
                         <!--End notifications dropdown-->
 
 
+                    </ul>
+                    <ul class="nav navbar-top-links pull-right">
+
+
+
+
+
                         <!--Language selector-->
                         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                         <li class="dropdown">
@@ -503,6 +510,7 @@
                             </a>
                         </li>
                     </ul>
+
                 </div>
                 <!--================================-->
                 <!--End Navbar Dropdown-->
@@ -676,47 +684,31 @@
 
                             <div class="panel">
                                 <div class="panel-heading ">
+                                    <div class="panel-control panel-control-component">
+                                        <h3 class="panel-title">Area Chart</h3>
+                                        <input id="demo-auto-gauge" class="toggle-switch" type="checkbox">
 
-                                    <h3 class="panel-title">Area Chart</h3>
+
+                                    </div>
+
                                 </div>
                                 <div class="panel-body">
 
                                     <!--Morris Area Chart placeholder-->
                                     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
                                     <div id="demo-morris-area" style="height:212px"></div>
+                                    <div class="text-center">
 
+                                        <!--Gauge placeholder-->
+                                        <canvas id="demo-gauge" height="70" class="canvas-responsive"></canvas>
+
+
+                                    </div>
                                     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
                                 </div>
                             </div>
 
-                            <div class="col-md-12 col-lg-4">
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-control panel-control-component">
-                                            <span class="text-muted">Auto update</span>
-                                            <input id="demo-auto-gauge" class="toggle-switch" type="checkbox">
-                                            <label for="demo-auto-gauge" class="text-muted"></label>
-                                        </div>
-
-                                    </div>
-
-                                    <!-- Gauge JS -->
-                                    <!--===================================================-->
-                                    <div class="panel-body">
-                                        <div class="text-center">
-
-                                            <!--Gauge placeholder-->
-                                            <canvas id="demo-gauge" height="70" class="canvas-responsive"></canvas>
-
-
-                                        </div>
-                                    </div>
-                                    <!--===================================================-->
-                                    <!-- End Gauge JS -->
-
-                                </div>
-                            </div>
 
 
 
@@ -1955,7 +1947,7 @@
         <!--===================================================-->
         <!-- END SETTINGS -->
 
-
+    </div>
 </body>
 
 <!-- Mirrored from www.themeon.net/nifty/v2.5/charts.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Jul 2016 13:45:56 GMT --></html>
